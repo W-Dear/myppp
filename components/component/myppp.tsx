@@ -345,7 +345,7 @@ export function MyPPP() {
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">About Me</h2>
               <p className="text-gray-400 max-w-[600px] md:text-xl">
                 Hi, Im a manga artist and illustrator with a passion for creating captivating characters and stories.
-                I've been drawing manga-inspired art for over 10 years and have developed my own unique style. Im
+                Ive been drawing manga-inspired art for over 10 years and have developed my own unique style. Im
                 excited to share my work with you and hope you enjoy exploring my portfolio.
               </p>
               <div className="flex gap-4">
