@@ -344,8 +344,8 @@ export function MyPPP() {
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">About Me</h2>
               <p className="text-gray-400 max-w-[600px] md:text-xl">
-                Hi, I'm a manga artist and illustrator with a passion for creating captivating characters and stories.
-                I've been drawing manga-inspired art for over 10 years and have developed my own unique style. I'm
+                Hi, Im a manga artist and illustrator with a passion for creating captivating characters and stories.
+                I've been drawing manga-inspired art for over 10 years and have developed my own unique style. Im
                 excited to share my work with you and hope you enjoy exploring my portfolio.
               </p>
               <div className="flex gap-4">
@@ -370,7 +370,7 @@ export function MyPPP() {
             <div className="space-y-4 mb-8">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Get in Touch</h2>
               <p className="text-gray-400 max-w-[600px] md:text-xl">
-                I'd love to hear from you! Feel free to reach out with any questions or inquiries.
+                Id love to hear from you! Feel free to reach out with any questions or inquiries.
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
