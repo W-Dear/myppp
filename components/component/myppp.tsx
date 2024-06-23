@@ -1,25 +1,23 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Link } from 'react-router-dom'
 
 export function MyPPP() {
   return (
     <>
       <header className="w-full bg-[#BFB5A2] text-gray-50 py-6 px-4 md:px-6">
         <div className="container max-w-6xl mx-auto flex items-center justify-between">
-          <Link className="flex items-center gap-2" to="#">
+          <Link className="flex items-center gap-2" href="#">
             <MagnetIcon className="w-8 h-8" />
             <span className="text-xl font-bold"></span>
           </Link>
           <nav className="hidden md:flex items-center gap-6">
-            <Link className="hover:underline underline-offset-4" to="#comics">
-              작업물
+            <Link className="hover:underline underline-offset-4" href="#">
             </Link>
           </nav>
           <div className="flex items-center gap-4 md:hidden">
             <Button size="icon" variant="ghost">
               <MenuIcon className="w-6 h-6" />
-              <span className="sr-only">메뉴 토글</span>
+              <span className="sr-only">Toggle menu</span>
             </Button>
           </div>
         </div>
@@ -32,20 +30,22 @@ export function MyPPP() {
                 안진섭
               </h1>
               <p className="text-gray-400 max-w-[600px] md:text-xl">
-                흑백 그림을 좋아하는 일러스트레이터입니다.
+                흑백을 좋아하는 일러스트레이터 입니다.
               </p>
               <div className="flex gap-4">
-                <Link
-                  className="inline-flex items-center justify-center rounded-md bg-[#BFB5A2] px-4 py-2 text-sm font-medium text-gray-950 shadow-sm transition-colors hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2 dark:bg-gray-800 dark:text-gray-950 dark:hover:bg-gray-800 dark:focus:ring-gray-900 dark:ring-offset-gray-50 dark:dark:bg-gray-50 dark:dark:hover:bg-gray-50/90 dark:dark:focus:ring-gray-50"
-                  to="#comics"
-                >
-                  작업물 보기
-                </Link>
+ <Link
+  className="inline-flex items-center justify-center rounded-md bg-[#BFB5A2] px-4 py-2 text-sm font-medium text-gray-950 shadow-sm transition-colors hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2 dark:bg-gray-800 dark:text-gray-950 dark:hover:bg-gray-800 dark:focus:ring-gray-900 dark:ring-offset-gray-50 dark:dark:bg-gray-50 dark:dark:hover:bg-gray-50/90 dark:dark:focus:ring-gray-50"
+  href="#"
+>
+  View Illustrations
+</Link>
+
+
               </div>
             </div>
             <div className="flex justify-center">
-              <img
-                alt="만화 일러스트"
+              <image
+                alt="Manga Illustration"
                 className="w-full max-w-[400px] md:max-w-none"
                 height={600}
                 src="/placeholder.svg"
@@ -58,12 +58,13 @@ export function MyPPP() {
             </div>
           </div>
         </section>
+        
         <section className="w-full bg-[#756F67] text-gray-50 py-12 md:py-24 lg:py-32" id="comics">
           <div className="container max-w-6xl mx-auto">
             <div className="space-y-4 mb-8">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">작업물</h2>
+              
             </div>
-          </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
               <image
                 alt="Comic 1"
