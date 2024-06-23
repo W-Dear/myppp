@@ -8,11 +8,11 @@ export function MyPPP() {
         <div className="container max-w-6xl mx-auto flex items-center justify-between">
           <Link className="flex items-center gap-2" href="#">
             <MagnetIcon className="w-8 h-8" />
-            <span className="text-xl font-bold">로고</span>
+            <span className="text-xl font-bold"></span>
           </Link>
           <nav className="hidden md:flex items-center gap-6">
             <Link href="#comics" className="hover:underline underline-offset-4">
-              작업물
+              
             </Link>
           </nav>
           <div className="flex items-center gap-4 md:hidden">
@@ -109,24 +109,24 @@ export function MyPPP() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
               <div className="bg-[#BFB5A2] rounded-lg p-6 space-y-4">
                 <MailIcon className="w-8 h-8" />
-                <h3 className="text-xl font-bold">이메일</h3>
+                <h3 className="text-xl font-bold"></h3>
                 <a className="text-white hover:underline" href="mailto:example@example.com">
                   example@example.com
                 </a>
               </div>
               <div className="bg-[#BFB5A2] rounded-lg p-6 space-y-4">
                 <PhoneIcon className="w-8 h-8" />
-                <h3 className="text-xl font-bold">전화</h3>
+                <h3 className="text-xl font-bold"></h3>
                 <a className="text-white hover:underline" href="#">
                   +1 (234) 567-890
                 </a>
               </div>
               <div className="bg-[#BFB5A2] rounded-lg p-6 space-y-4">
                 <FacebookIcon className="w-8 h-8" />
-                <h3 className="text-xl font-bold">소셜 미디어</h3>
+                <h3 className="text-xl font-bold"></h3>
                 <div className="flex gap-4">
                   <Link href="#" className="text-white hover:underline">
-                    트위터
+                    000
                   </Link>
                 </div>
               </div>
