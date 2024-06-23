@@ -64,34 +64,34 @@ export function MyPPP() {
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">작업물</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 <img
-                  alt="Comic 1"
+                  alt="Comic-1"
                   className="w-full h-auto rounded-lg object-cover"
                   height={400}
                   src="/placeholder.svg"
                   style={{
-                    aspectRatio: "400/400",
+                    aspectRatio: "300/300",
                     objectFit: "cover",
                   }}
                   width={400}
                 />
                 <img
-                  alt="Comic 2"
+                  alt="Comic-2"
                   className="w-full h-auto rounded-lg object-cover"
                   height={400}
                   src="/placeholder.svg"
                   style={{
-                    aspectRatio: "400/400",
+                    aspectRatio: "300/300",
                     objectFit: "cover",
                   }}
                   width={400}
                 />
                 <img
-                  alt="Comic 3"
+                  alt="Comic-3"
                   className="w-full h-auto rounded-lg object-cover"
                   height={400}
                   src="/placeholder.svg"
                   style={{
-                    aspectRatio: "400/400",
+                    aspectRatio: "300/300",
                     objectFit: "cover",
                   }}
                   width={400}
@@ -111,14 +111,14 @@ export function MyPPP() {
                 <MailIcon className="w-8 h-8" />
                 <h3 className="text-xl font-bold"></h3>
                 <a className="text-white hover:underline" href="mailto:example@example.com">
-                  example@example.com
+                  jinseob0303@gmail.com
                 </a>
               </div>
               <div className="bg-[#BFB5A2] rounded-lg p-6 space-y-4">
                 <PhoneIcon className="w-8 h-8" />
                 <h3 className="text-xl font-bold"></h3>
                 <a className="text-white hover:underline" href="#">
-                  +1 (234) 567-890
+                  +82(10)-1234-4124
                 </a>
               </div>
               <div className="bg-[#BFB5A2] rounded-lg p-6 space-y-4">
